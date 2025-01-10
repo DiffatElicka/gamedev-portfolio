@@ -17,7 +17,7 @@
 import Vue from 'vue';
 import Header from './components/Header.vue';
 import Footer from './components/Footer.vue';
-import Helpers from './helpers';
+// import Helpers from './helpers';
 
 export default Vue.extend({
   name: 'App',
@@ -26,12 +26,6 @@ export default Vue.extend({
   }
 });
 
-// Preload heavy images or gifs that are used in other pages
-Helpers.preloadImages([
-  "img/projects/project-1-icon.png",
-  "img/projects/project-2-icon.png",
-  "img/projects/project-3-icon.png"
-]);
 
 </script>
 
